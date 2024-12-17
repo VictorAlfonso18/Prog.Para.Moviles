@@ -12,6 +12,7 @@ retrofit = "2.9.0"
 lifecycle = "2.6.1"
 room = "2.6.1"
 zxing = "4.3.0"
+playServicesAnalyticsImpl = "18.2.0"
 
 
 [libraries]
@@ -35,6 +36,7 @@ zxing = { module = "com.journeyapps:zxing-android-embedded", version.ref = "zxin
 lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+play-services-analytics-impl = { group = "com.google.android.gms", name = "play-services-analytics-impl", version.ref = "playServicesAnalyticsImpl" }
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

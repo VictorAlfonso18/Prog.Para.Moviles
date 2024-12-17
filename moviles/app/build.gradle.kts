@@ -6,7 +6,6 @@ plugins {
 android {
     namespace = "mx.sinsel.salesapplication"
     compileSdk = 34
-
     defaultConfig {
         applicationId = "mx.sinsel.salesapplication"
         minSdk = 24
@@ -50,6 +49,7 @@ android {
 }
 
 dependencies {
+
     //Zxing library (Bar and QR codes)
     implementation("com.journeyapps:zxing-android-embedded:4.3.0")
 
@@ -76,6 +76,7 @@ dependencies {
     implementation("androidx.camera:camera-core:1.3.3")
     implementation("androidx.camera:camera-view:1.3.3")
     implementation("androidx.camera:camera-lifecycle:1.3.3")
+    implementation(libs.play.services.analytics.impl)
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
